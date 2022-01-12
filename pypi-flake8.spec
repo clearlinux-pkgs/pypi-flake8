@@ -4,7 +4,7 @@
 #
 Name     : pypi-flake8
 Version  : 4.0.1
-Release  : 96
+Release  : 97
 URL      : https://files.pythonhosted.org/packages/e6/84/d8db922289195c435779b4ca3a3f583f263f87e67954f7b2e83c8da21f48/flake8-4.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e6/84/d8db922289195c435779b4ca3a3f583f263f87e67954f7b2e83c8da21f48/flake8-4.0.1.tar.gz
 Summary  : the modular source code checker: pep8 pyflakes and co
@@ -15,12 +15,6 @@ Requires: pypi-flake8-license = %{version}-%{release}
 Requires: pypi-flake8-python = %{version}-%{release}
 Requires: pypi-flake8-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: flake8
-Provides: flake8-python
-Provides: flake8-python3
-BuildRequires : mccabe-python
-BuildRequires : pep8-python
-BuildRequires : pyflakes-python
 BuildRequires : pypi(mccabe)
 BuildRequires : pypi(pycodestyle)
 BuildRequires : pypi(pyflakes)
@@ -78,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641436284
+export SOURCE_DATE_EPOCH=1641948225
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
