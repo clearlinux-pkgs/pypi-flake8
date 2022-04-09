@@ -4,7 +4,7 @@
 #
 Name     : pypi-flake8
 Version  : 4.0.1
-Release  : 98
+Release  : 99
 URL      : https://files.pythonhosted.org/packages/e6/84/d8db922289195c435779b4ca3a3f583f263f87e67954f7b2e83c8da21f48/flake8-4.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e6/84/d8db922289195c435779b4ca3a3f583f263f87e67954f7b2e83c8da21f48/flake8-4.0.1.tar.gz
 Summary  : the modular source code checker: pep8 pyflakes and co
@@ -18,7 +18,7 @@ BuildRequires : buildreq-distutils3
 BuildRequires : pypi(mccabe)
 BuildRequires : pypi(pycodestyle)
 BuildRequires : pypi(pyflakes)
-Patch1: 0001-upgrade-mccabe-to-0.7.0.patch
+Patch1: backport-upgrade-mccabe-to-0.7.0.patch
 
 %description
 .. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg
@@ -74,7 +74,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1649479067
+export SOURCE_DATE_EPOCH=1649479463
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
