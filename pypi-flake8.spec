@@ -4,7 +4,7 @@
 #
 Name     : pypi-flake8
 Version  : 6.0.0
-Release  : 113
+Release  : 114
 URL      : https://files.pythonhosted.org/packages/66/53/3ad4a3b74d609b3b9008a10075c40e7c8909eae60af53623c3888f7a529a/flake8-6.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/66/53/3ad4a3b74d609b3b9008a10075c40e7c8909eae60af53623c3888f7a529a/flake8-6.0.0.tar.gz
 Summary  : the modular source code checker: pep8 pyflakes and co
