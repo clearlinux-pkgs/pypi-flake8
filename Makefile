@@ -1,5 +1,5 @@
 PKG_NAME := pypi-flake8
-URL = https://files.pythonhosted.org/packages/58/16/3f2a0bb700ad65ac9663262905a025917c020a3f92f014d2ba8964b4602c/flake8-7.1.2.tar.gz
+URL = https://files.pythonhosted.org/packages/e7/c4/5842fc9fc94584c455543540af62fd9900faade32511fab650e9891ec225/flake8-7.2.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
